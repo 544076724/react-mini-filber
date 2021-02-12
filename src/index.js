@@ -39,8 +39,8 @@ class Greating extends Component {
 
 render(<Greating title="奥利给" />, root)
 
-function FnComponent(props) {
-  return <div>{props.title}FnComponent</div>
-}
+// function FnComponent(props) {
+//   return <div>{props.title}FnComponent</div>
+// }
 
 // render(<FnComponent title="Hello" />, root)
