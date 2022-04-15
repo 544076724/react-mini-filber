@@ -361,6 +361,7 @@ const workLoop = deadline => {
 
   if (pendingCommit) {
     commitAllWork(pendingCommit)
+    pendingCommit = null
   }
 }
 
