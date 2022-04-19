@@ -130,7 +130,7 @@ const getFirstTask = () => {
     tag: "host_root", //标识起点
     effects: [], //储存 下级的fiber对象
     child: null, //子集fiber  只有一个子集剩下的都是兄弟节点
-    alternate: task.dom.__rootFiberContainer //更新操作, 需要储存alternate 老的fiber，方便后续新旧fiber对比更新
+    alternate: task.dom.__rootFiberContainer //更新操作, 需要储存alternate 老的fiber，方便后续新旧fiber对比更新 连续调用render
     //render(<div></div>)  render(<span></span>);这种
   }
 }

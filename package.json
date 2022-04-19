@@ -8,7 +8,9 @@
     "dev:server": "nodemon ./build/server.js",
     "dev:client-compile": "webpack --config webpack.config.client.js --watch"
   },
-  "keywords": ["filber"],
+  "keywords": [
+    "filber"
+  ],
   "repository": "git@github.com:544076724/react-mini-filber.git",
   "author": "luopeng <luopeng@viewhigh.com>",
   "license": "MIT",
